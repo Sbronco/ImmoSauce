@@ -1,0 +1,108 @@
+/*global*/
+
+h1, h2, h3, label, a, button {
+    font-family: "heebo", Calibri, sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+#page_connexion {
+    text-align: center;
+    margin: 5px 35%;
+}
+
+#global_wrapper {
+    text-align: center;
+}
+
+.obligatoire {
+    color: #DA464CFF;
+}
+form {
+    text-align: left;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 98%;
+    height: 3em;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: rgb(236, 230, 230) 1px solid;
+}
+
+input::placeholder {
+    color: rgb(217, 214, 214);
+    margin-left: 5px;
+}
+
+label {
+    color: #494949;
+    font-size: small;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    color: white;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    background: #DA464CFF;
+}
+
+/* Header*/
+
+#global_wrapper h1 {
+    font-size: 2.5em;
+}
+
+#global_wrapper h1 span {
+
+    color: rgb(218, 70, 76);
+
+}
+
+/*section main*/
+#form_connection {
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 0;
+    height: auto;
+    background: white;
+    width: 23em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(238, 5, 5, 0.19);
+}
+
+
+
+#form_wrapper #password_forgetted {
+    margin: 0 5px;
+    border-bottom: rgb(236, 230, 230) 1px solid;
+    padding-bottom: 10px;
+}
+
+#form_wrapper a {
+    text-decoration: none;
+    color: #DA464cff;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+
+}
+
+#form_wrapper button {
+    all: unset;
+    margin-top: 20px;
+    width: 50%;
+    background: #494949;
+    color: white;
+    height: 2.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}

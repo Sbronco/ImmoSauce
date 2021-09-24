@@ -60,13 +60,17 @@ input[type="submit"] {
 ul{
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
 /* Header*/
 
 #global_wrapper h1 {
     font-size: 2.5em;
 }
 
-#global_wrapper h1 span {
+ h1 span {
 
     color: rgb(218, 70, 76);
 
@@ -114,7 +118,7 @@ ul{
 form ul {
     text-align: left;
 }
-ul li::before {
+form ul li::before {
     content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
     margin-left: -2em;
     display: inline-block; /* Needed to add space between the bullet and the text */

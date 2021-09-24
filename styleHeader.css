@@ -1,0 +1,42 @@
+/* global */
+header {
+    width: 100%;
+    background: white;
+    border: rgb(217, 214, 214) 1px solid;
+
+}
+
+.wrapper_header {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+li {
+    margin: 0.5em;
+    font-weight: bold;
+    font-family: "heebo", Calibri, sans-serif;
+}
+
+li a {
+    color: #474747;
+}
+
+header #deposit a {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    color: indianred;
+    border: indianred 2px solid;
+}

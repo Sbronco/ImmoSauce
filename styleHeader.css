@@ -25,12 +25,13 @@ header ul {
 
 li {
     margin: 0.5em;
-    font-weight: bold;
-    font-family: "heebo", Calibri, sans-serif;
+
 }
 
-li a {
+li a, #profil a {
     color: #474747;
+    font-weight: bold;
+    font-family: "heebo", Calibri, sans-serif;
 }
 
 header #deposit a {

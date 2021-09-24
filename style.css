@@ -8,7 +8,7 @@ body {
     background: whitesmoke;
 }
 
-#page_connexion {
+.page_connexion {
     text-align: center;
     margin: 5px 35%;
 }
@@ -57,6 +57,9 @@ input[type="submit"] {
     background: #DA464CFF;
 }
 
+ul{
+    list-style: none;
+}
 /* Header*/
 
 #global_wrapper h1 {
@@ -70,11 +73,10 @@ input[type="submit"] {
 }
 
 /*section main*/
-#form_connection {
+.form_connection {
     border-radius: 10px;
     margin: auto;
     padding: 10px 0;
-    height: auto;
     background: white;
     width: 23em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(238, 5, 5, 0.19);
@@ -82,13 +84,13 @@ input[type="submit"] {
 
 
 
-#form_wrapper #password_forgetted {
+.form_wrapper .create_account {
     margin: 0 5px;
-    border-bottom: rgb(236, 230, 230) 1px solid;
-    padding-bottom: 10px;
+    border-top: rgb(236, 230, 230) 1px solid;
+    margin-top: 10px;
 }
 
-#form_wrapper a {
+.form_wrapper a {
     text-decoration: none;
     color: #DA464cff;
     padding-bottom: 15px;
@@ -96,13 +98,43 @@ input[type="submit"] {
 
 }
 
-#form_wrapper button {
-    all: unset;
+.form_wrapper .create_account a {
+    display: inline-block;
     margin-top: 20px;
+    padding: 10px;
     width: 50%;
-    background: #494949;
+    background: #4d5a68;
     color: white;
-    height: 2.5em;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
+}
+
+/** Page Inscription*/
+
+form ul {
+    text-align: left;
+}
+ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    margin-left: -2em;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    /*margin-right: 1em; also can be us for space */
+    color: indianred;
+
+}
+
+input[type="checkbox"]{
+width: auto;
+    /*change the size of the checkbox*/
+}
+label[for="policy"]{
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+
+
+}
+label[for="policy"] span{
+    padding-left: 2em;
 }

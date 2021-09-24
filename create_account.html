@@ -4,31 +4,38 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>ImmoSauce</title>
-
 </head>
 <body>
-<div id="page_connexion">
+<div class="page_connexion">
     <div id="global_wrapper">
 
         <h1>Immo<span>Sauce</span></h1>
 
         <section class="form_connection">
             <div class="form_wrapper">
-                <h2>Connectez-vous à votre compte</h2>
-                <form id="form">
+                <h2>Créez votre compte </h2>
+                <form class="form">
                     <label for="input_email">Adresse email<span class="obligatoire">*</span></label>
                     <input type="email" id="input_email" placeholder="jhon.saucage@gmail.com">
                     <br>
                     <label for="input_password">Mot de passe<span class="obligatoire">*</span> </label>
                     <input type="password" id="input_password" placeholder="********"><br>
+                    <ul>
+                        <li>1 chiffre minimum</li>
+                        <li>1 lettre majuscule minimum</li>
+                        <li>1 lettre miniscule minimum</li>
+                        <li>1 caractère spécial minimum</li>
+                        <li>8 caractères minimum</li>
+                    </ul>
+                    <label for="policy">
+                    <input type="checkbox" id="policy">
+                        <span>En cochant cette case, je déclare avoir pris connaissance et accepter des <a href="#">conditions générales d’utilisation</a> d'Immoroot.</span></label>
 
-                    <input type="submit" value="Connexion">
+                    <input type="submit" id="inscription" value="Inscription">
                 </form>
-                <div id="password_forgetted">
-                    <a href="#">Mot de passe oublié ?</a><br>
-                </div>
+
                 <div class="create_account">
-                    <a href="create_account.html">Créer un compte</a>
+                    <a href="index.html">J'ai déjà un compte</a>
                 </div>
 
 

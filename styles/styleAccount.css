@@ -7,6 +7,8 @@ aside, #personnal_info, #imageprofil, #changepassword {
 
 div {
     margin: 0 20px 20px;
+    border-radius: 8px;
+
 }
 
 input {

@@ -1,0 +1,62 @@
+/* Global*/
+
+aside, #personnal_info, #imageprofil, #changepassword {
+    padding: 15px;
+    background: white;
+}
+
+div {
+    margin: 0 20px 20px;
+}
+
+input {
+    width: 50%;
+}
+
+label {
+    display: block;
+}
+
+#account_wrapper {
+    width: 65%;
+    margin: 8% auto;
+}
+
+/*Aside*/
+aside {
+    border-radius: 8px;
+    width: 15%;
+    position: fixed;
+
+}
+
+aside ul li {
+    margin-top: 20px;
+}
+
+/* main*/
+main {
+    float: right;
+    width: 75%;
+}
+
+main #titlemain {
+    padding: 0;
+    display: flex;
+    border-bottom: rgb(236, 230, 230) 1px solid;
+    padding-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+main #titlemain h1 {
+    margin: 0;
+    color: #474747;
+    font-weight: bold;
+    font-family: "heebo", Calibri, sans-serif;
+}
+
+main input[type="submit"] {
+    display: block;
+    width: 25%;
+}

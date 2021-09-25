@@ -51,7 +51,6 @@ label {
 
 input[type="submit"] {
     color: white;
-    width: 100%;
     font-size: medium;
     font-weight: bold;
     background: #DA464CFF;
@@ -115,10 +114,10 @@ a {
 
 /** Page Inscription*/
 
-form ul {
+#form_createaccount ul {
     text-align: left;
 }
-form ul li::before {
+#form_createaccount ul li::before {
     content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
     margin-left: -2em;
     display: inline-block; /* Needed to add space between the bullet and the text */
@@ -127,10 +126,11 @@ form ul li::before {
     color: indianred;
 
 }
-
-input[type="checkbox"]{
-width: auto;
-    /*change the size of the checkbox*/
+#form_createaccount input[type="submit"]{
+    width: 100%;
+}
+#form_createaccount input[type="checkbox"]{
+width: auto;    /*change the size of the checkbox*/
 }
 label[for="policy"]{
     display: flex;
